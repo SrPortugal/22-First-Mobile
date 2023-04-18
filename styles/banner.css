@@ -8,16 +8,30 @@
 }
 
 .banner__titulo {
+    font-family: var(--font-principal);
     font-size: 18px;
     font-weight: 700;
 }
 
+.descricao__titulo-livro {
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+.descricao__texto {
+    font-size: 14px;
+}
+
 .banner__texto {
+    font-family: var(--font-principal);
     font-weight: 500;
     padding: 1em 0;
 }
 
 .banner__pesquisa {
+    font-family: var(--font-principal);
     background-color: transparent;
     border: solid 1px var(--branco);
     /* text-align: center; */
